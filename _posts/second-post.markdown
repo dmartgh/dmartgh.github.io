@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "First post test"
-date:   2021-01-15 22:42:00
+title:  "second post test"
 preview: /assets/images/first-post.jpeg
 ---
 
 ![Picture 1](/assets/images/first-post.jpeg)
 
-This is my first post with images.
+This is my second post with images.
