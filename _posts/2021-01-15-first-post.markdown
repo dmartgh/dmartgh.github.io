@@ -5,6 +5,6 @@ date:   2021-01-15 22:42:00
 preview: assets/images/first-post.jpeg?auto=yes
 ---
 
-![Picture 1](assets/images/first-post.jpeg?auto=yes)
+![Picture 1](/assets/images/first-post.jpeg?auto=yes)
 
 This is my first post with images.
