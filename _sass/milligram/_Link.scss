@@ -11,11 +11,11 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 a {
-	color: $color-primary;
+	color: $color-tertiary;
 	text-decoration: none;
 
 	&:focus,
 	&:hover {
-		color: $color-secondary;
+		text-decoration: underline;
 	}
 }

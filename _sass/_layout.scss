@@ -24,7 +24,12 @@
 }
 
 .post-title {
-    display: block;
+/*    display: block;
+    height: 1em;
+    align-items: center;
+    justify-content: center;*/
+    position: fixed;
+    pointer-events: auto;
 }
 
 /**
@@ -56,11 +61,15 @@
  * Misc
  */
 .preview-panel {
-    padding: 1rem;
-    box-sizing: border-box;
-    border: 1px solid $color-initial;
+/*     padding: 1rem; */
+/*     box-sizing: border-box; */
+/*     border: 1px solid $color-initial; */
+    pointer-events: auto;
     
     &:hover {
-        border: 1px solid $grey-color-light;
+/*         border: 1px solid $grey-color-light; */
+        background: rgba(0,0,0,0.3);
+        z-index: -1;
+        pointer-events: none;
     }
 }
